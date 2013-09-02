@@ -1,0 +1,41 @@
+body 
+{
+    margin:0;
+    padding:0;
+    background-color:#fff;
+}
+
+#content
+{
+    display:block;
+    padding:10px;
+}
+
+h1
+{
+    display:block;
+    background-color:#000;
+    margin:0 0 10px 0;
+    padding:5px;
+    color:#fff;
+}
+
+h4
+{
+    margin:0px;
+    color:#D54937;
+    margin:10px 0 5px 0;
+}
+
+input[type=button]
+{
+    padding:8px 5px;
+    margin: 10px 10px 10px 0;
+}
+
+.field
+{
+    border:solid 1px #F1F1F1;
+    padding:5px;
+    width:100%;
+}

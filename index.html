@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Calculator</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css" media="screen" />
+        <script type="text/javascript" src="scripts/zepto.min.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
+    </head>
+<body>
+    <h1>Expense Calculator</h1>
+    
+    <div id="content">
+    
+        <h4>Total:</h4>
+        <input type="text" id="subtotal" name="subtotal" class="field" />
+        
+        
+        <h4>Number of Participant:</h4>
+        <select id="number_of_participant" class="field">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option selected="selected">6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+        
+        <h4>10% Tip: <span id="span10"></span></h4>
+        
+        <h4>15% Tip: <span id="span15"></span></h4>
+
+        <h4>18% Tip: <span id="span18"></span></h4>
+
+        <input type="button" id="btnCalculate" value="Calculate" />
+        
+        <div id="result"></div>
+    
+    </div>
+    
+</body>
+</html>
