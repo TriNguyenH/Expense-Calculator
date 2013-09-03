@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Expense Calculator</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link href="styles/main.css" rel="stylesheet" type="text/css" media="screen" />
         <script type="text/javascript" src="scripts/zepto.min.js"></script>
         <script type="text/javascript" src="scripts/main.js"></script>
@@ -12,8 +13,9 @@
     <div id="content">
     
         <h4>Total:</h4>
-        <input type="text" id="subtotal" name="subtotal" class="field" />
-        
+        <div style="display:block;">
+            <input type="text" id="subtotal" name="subtotal" class="field" />
+        </div>
         
         <h4>Number of Participant:</h4>
         <select id="number_of_participant" class="field">
@@ -39,6 +41,7 @@
         
         <div id="result"></div>
     
+        <p><a href="about.html">About Author</a></p>
     </div>
     
 </body>
