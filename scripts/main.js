@@ -17,6 +17,8 @@ $(function() {
             $("#span15").html("$" + Math.round(($subtotal * 1.15) / $num_people * 100) / 100);
 
             $("#span18").html("$" + Math.round(($subtotal * 1.18) / $num_people * 100) / 100);
+
+            $(".result").css("display","block");
         }
     });
 });
